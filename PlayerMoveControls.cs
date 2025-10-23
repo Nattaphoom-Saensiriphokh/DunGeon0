@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -15,6 +16,41 @@ public class PlayerMoveControls : MonoBehaviour
     public Transform leftPoint;
     public Transform rightPoint;
     private bool grounded = false;
+    private bool knockBack = false;
+
+
+    private void FixedUpdate()
+    {
+        CheckStatus();
+
+        if (knockBack) return;
+
+        Move();
+        JumpPlayer();
+    }
+
+    public IEnumerator KnockBack(float forceX, float forceY, float duration, Transform otherObject)
+    {
+        int knockBackDirection;
+        if (transform.position.x < otherObject.position.x)
+        {
+            knockBackDirection = -1;
+        }
+        else
+        {
+            knockBackDirection = 1;
+        }
+
+        knockBack = true;
+        rigidbody2D.velocity = Vector2.zero;
+        Vector2 theForce = new Vector2(forceX * knockBackDirection, forceY);
+        rigidbody2D.AddForce(theForce, ForceMode2D.Impulse);
+
+        yield return new WaitForSeconds(duration);
+        knockBack = false;
+        rigidbody2D.velocity = Vector2.zero;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -69,3 +105,4 @@ public class PlayerMoveControls : MonoBehaviour
         grounded = (leftCheckHit || rightCheckHit);
     }
 }
+

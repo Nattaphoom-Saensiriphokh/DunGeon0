@@ -6,6 +6,7 @@ public class GatherInput : MonoBehaviour
     private Controls myControl;
     public float valueX;
     public bool jumpInput;
+    public bool tryAttack;
 
     public void Awake()
     {
@@ -17,6 +18,8 @@ public class GatherInput : MonoBehaviour
         myControl.Player.Move.canceled += StopMove;
         myControl.Player.Jump.performed += JumpStart;
         myControl.Player.Jump.canceled += JumpStop;
+        myControl.Player.Attack.performed += TryToAttack;
+        myControl.Player.Attack.canceled += StopTryToAttack;
 
         myControl.Player.Enable();
     }
@@ -26,6 +29,8 @@ public class GatherInput : MonoBehaviour
         myControl.Player.Move.canceled -= StopMove;
         myControl.Player.Jump.performed -= JumpStart;
         myControl.Player.Jump.canceled -= JumpStop;
+        myControl.Player.Attack.performed -= TryToAttack;
+        myControl.Player.Attack.canceled -= StopTryToAttack;
 
         myControl.Player.Disable();
         //myControl.Disable();
@@ -40,11 +45,19 @@ public class GatherInput : MonoBehaviour
     }
     private void StartMove(InputAction.CallbackContext ctx)
     {
-        valueX = ctx.ReadValue<float>();
+        valueX = ctx.ReadValue<Vector2>().x;
     }
     private void StopMove(InputAction.CallbackContext ctx)
     {
         valueX = 0;
+    }
+    private void TryToAttack(InputAction.CallbackContext ctx)
+    {
+        tryAttack = true;
+    }
+    private void StopTryToAttack(InputAction.CallbackContext ctx)
+    {
+        tryAttack = false;
     }
     public void DisableControls()
     {
@@ -54,9 +67,13 @@ public class GatherInput : MonoBehaviour
         myControl.Player.Jump.performed -= JumpStart;
         myControl.Player.Jump.canceled -= JumpStop;
 
+        myControl.Player.Attack.performed -= TryToAttack;
+        myControl.Player.Attack.canceled -= StopTryToAttack;
+
         myControl.Player.Disable();
         valueX = 0;
     }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

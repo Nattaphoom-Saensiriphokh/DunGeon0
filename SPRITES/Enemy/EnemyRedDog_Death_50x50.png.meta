@@ -121,10 +121,10 @@ TextureImporter:
       name: EnemyRedDog_Death_50x50_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 13
-        width: 31
-        height: 24
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +143,10 @@ TextureImporter:
       name: EnemyRedDog_Death_50x50_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 12
-        width: 31
-        height: 24
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: EnemyRedDog_Death_50x50_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 12
-        width: 30
-        height: 24
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: EnemyRedDog_Death_50x50_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 13
-        width: 29
-        height: 23
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: EnemyRedDog_Death_50x50_4
       rect:
         serializedVersion: 2
-        x: 212
-        y: 13
-        width: 27
-        height: 22
+        x: 200
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: EnemyRedDog_Death_50x50_5
       rect:
         serializedVersion: 2
-        x: 265
-        y: 13
-        width: 24
-        height: 19
+        x: 250
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: EnemyRedDog_Death_50x50_6
       rect:
         serializedVersion: 2
-        x: 314
-        y: 13
-        width: 25
-        height: 18
+        x: 300
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b7198a63ce33203469c3c071e7cf2b12
     internalID: 0
     vertices: []
     indices: 
@@ -283,7 +283,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":50.0,"y":50.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       EnemyRedDog_Death_50x50_0: -7092089226659804821
       EnemyRedDog_Death_50x50_1: -2478595594880283368

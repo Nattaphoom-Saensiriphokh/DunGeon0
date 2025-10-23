@@ -112,10 +112,10 @@ TextureImporter:
       name: Cat_Attack_100x100_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 33
-        width: 24
-        height: 37
+        x: 0
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: Cat_Attack_100x100_1
       rect:
         serializedVersion: 2
-        x: 135
-        y: 33
-        width: 53
-        height: 43
+        x: 100
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: Cat_Attack_100x100_2
       rect:
         serializedVersion: 2
-        x: 236
-        y: 33
-        width: 43
-        height: 26
+        x: 200
+        y: 0
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,33 +174,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Cat_Attack_100x100_3
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 33
-        width: 11
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 88a3e0d4f29f71d80800000000000000
-      internalID: -8279875408345810296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ddeab40ff1d4604498067409f6a2dbd7
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +186,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":100.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Cat_Attack_100x100_0: 2969675489589982266
       Cat_Attack_100x100_1: -3317808796862467528
       Cat_Attack_100x100_2: 8254486467735531079
-      Cat_Attack_100x100_3: -8279875408345810296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

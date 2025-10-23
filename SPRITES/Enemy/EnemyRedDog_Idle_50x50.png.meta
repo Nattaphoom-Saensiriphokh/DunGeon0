@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,10 +124,10 @@ TextureImporter:
       name: EnemyRedDog_Idle_50x50_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 13
-        width: 31
-        height: 24
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,10 +146,10 @@ TextureImporter:
       name: EnemyRedDog_Idle_50x50_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 13
-        width: 30
-        height: 24
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: EnemyRedDog_Idle_50x50_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 13
-        width: 31
-        height: 24
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: EnemyRedDog_Idle_50x50_3
       rect:
         serializedVersion: 2
-        x: 159
-        y: 13
-        width: 31
-        height: 24
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: EnemyRedDog_Idle_50x50_4
       rect:
         serializedVersion: 2
-        x: 209
-        y: 13
-        width: 31
-        height: 24
+        x: 200
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: EnemyRedDog_Idle_50x50_5
       rect:
         serializedVersion: 2
-        x: 259
-        y: 13
-        width: 30
-        height: 24
+        x: 250
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: EnemyRedDog_Idle_50x50_6
       rect:
         serializedVersion: 2
-        x: 309
-        y: 13
-        width: 31
-        height: 25
+        x: 300
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: EnemyRedDog_Idle_50x50_7
       rect:
         serializedVersion: 2
-        x: 359
-        y: 13
-        width: 31
-        height: 24
+        x: 350
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: feb00d04fb7535d4395c346e23b4c677
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +308,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":50.0,"y":50.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       EnemyRedDog_Idle_50x50_0: 1673168247260463020
       EnemyRedDog_Idle_50x50_1: 9035400181486736875
