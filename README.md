@@ -10,7 +10,7 @@
 <h1>Level 1 & Game Over</h1>
 จัดทำโดย นายณัฐภูมิ แสนศิริโภค
 673450189-9
-ในฉากนี้จะเป็น Level แรกของเกมจะมีการใส่ Gem Player และ Enemy เข้ามา
+ในฉากนี้จะเป็น Level แรกของเกมจะมีการใส่ Gem Player และ Enemy เข้ามาและเพิ่มการทำดาเมจให้กับทั้งตัว Enemy และ Player และ spike หรือหนามในแมพ โดย Player จะสามารถฟัน Enemy ให้ตายได้และ Enemy ก็สามารถทำให้ Player ตายได้เช่นกัน
 <img width="852" height="386" alt="Screenshot 2025-10-23 183810" src="https://github.com/user-attachments/assets/8ea9b9b7-f050-4f2c-9dc2-1556d779c5fe" />
 
 ส่วนฉากนี้จะเป็นฉากตอนตัวตัวละครได้รับดาเมจจนถึงฉาก Game Over
